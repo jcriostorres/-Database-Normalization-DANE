@@ -10,7 +10,8 @@ With the participation of the Organización Nacional de Ciegos Españoles (ONCE)
 4.	[Objectives]( #id4)
 5.	[Theoretical Framework]( #id5)
 6.	[Results](#id6)
-7.	[Links](#id7)
+7.	[Suggestion](#id7)
+8.	[Links](#id8)
 
 # Problem Statement
 It is essential to have access to suitable secondary sources that guarantee the quality and criteria of the indicators needed by Odismet to present the issues on its web platform. These indicators are classified into six thematic modules:
@@ -26,7 +27,8 @@ It is essential to have access to suitable secondary sources that guarantee the 
 Similarly, it is necessary to investigate whether the chosen DANE data is suitable for Modeling and Normalization, using methods of data cleaning and preparation. Data cleaning is the process of detecting and correcting or eliminating corrupt or inaccurate records from a set of records, table, or database. It involves identifying incomplete, incorrect, inaccurate, or irrelevant parts of the data for subsequent replacement, modification, or elimination of dirty or imprecise data.
 
    - Workbook Name: 
-   - Dataset: [National Quality of Life Survey ECV 2021 DANE](https://www.dane.gov.co/index.php/estadisticas-por-tema/salud/calidad-de-vida-ecv/encuesta-nacional-de-calidad-de-vida-ecv-2021])
+   - Datasets: [Labor market (Employment and unemployment DANE) Historical](https://www.dane.gov.co/index.php/estadisticas-por-tema/mercado-laboral/empleo-y-desempleo/geih-historicos) and [National Quality of Life Survey ECV 2021 DANE](https://www.dane.gov.co/index.php/estadisticas-por-tema/salud/calidad-de-vida-ecv/encuesta-nacional-de-calidad-de-vida-ecv-2021])
+     
   
 # Justification
 It is important for Colombia to generate a comprehensive report with a detailed appendix of indicators and variables related to Disability and the labor market, distributed across the six thematic modules previously mentioned in the problem statement. Each indicator should be systematically presented through tables, maps, and statistical graphs, accompanied by a detailed explanation of the main results obtained. Furthermore, the intention is to create a data model that allows for processing and analyzing all the information collected and produced by DANE, including its structure and relationships between them.
@@ -58,23 +60,26 @@ To consolidate all statistical data on disability in Colombia from the National 
 | `dropna()`    | Remove rows with missing values|
 | `fillna()`    | Fill in missing values         |
 
-- **Normalization**: **Box-Cox** Transformation method.
+
 
 The key tools for creating the normalized data model include:
+
+- Microsoft **Excel** spreadsheets
 - **Python** programming language
 - **Jupyter Notebook**, a Python IDE used for Data Science
-- Python libraries such as:
+- Python **libraries** such as:
   
 | libraries     | Description  |
 | ------------- | ------------- |
-| Pandas        | Has applications for data analytics, wrangling, and cleaning   |
-| Numpy         | Python’s basic numerical computation package  |
-| Matplotlib    | Can create a variety of graphs, such as line graphs, scatter graphs, histograms, heat plots, and interactive 2D graphs  |
-| Plotly        | Can create a high-quality data visualizations, such as scatter plots, heatmaps, histograms, box plots, bubble charts, and polar charts  |
-| Seaborn       | Can create visualizations of statistical data. It is built on top of Matplotlib and provides a high-level interface for creating static  |
+| Pandas        | Has applications for data analytics, wrangling, and cleaning.   |
+| Numpy         | Python’s basic numerical computation package.  |
+| Matplotlib    | Can create a variety of graphs, such as line graphs, scatter graphs, histograms, heat plots, and interactive 2D graphs.  |
+| Plotly        | Can create a high-quality data visualizations, such as scatter plots, heatmaps, histograms, box plots, bubble charts, and polar charts.  |
+| Seaborn       | Can create visualizations of statistical data. It is built on top of Matplotlib and provides a high-level interface for creating static.  |
 
-- Microsoft **Excel** spreadsheets
-- **GitHub**, allowing the uploading of code repositories to store them in the Git version control system.
+- **Normalization**: **Box-Cox** Transformation method.
+- **Tableau**: It helps users create different charts, graphs, maps, dashboards, and stories for visualizing and analyzing data, to help in making business decisions.
+- **GitHub**: allowing the uploading of code repositories to store them in the Git version control system.
 
 Additionally, it is important to follow a reference guide for Data Analytics projects such as CRISP-DM, which includes descriptions of the normal phases of a project, the necessary tasks in each phase, and an explanation of the relationships between tasks. It consists of 6 phases:
 
@@ -87,6 +92,9 @@ Additionally, it is important to follow a reference guide for Data Analytics pro
 
 # Results
 
+After conducting a selection criterion of various secondary sources with the help of Splicing Tables and a data dictionary, there are several reasons why DANE data was chosen for this project (Great Integrated Household Survey - GEIH and National Quality of Life Survey - ECV), taking into account the ISO/IEC 25012 standard. Completeness was not found, which is the degree to which all data attributes are present. Some DANE data tables did not comply with the dimensions or areas required by the Odismet Indicators. In the case of Portability, it was evident in the second part of the project during data preparation for normalization and modeling that it lacked the capability to be transferred to a hardware or software environment such as Jupyter Notebook or a CSV file
+
+It was observed that missing values were represented either as NaN or "Unnamed," which could affect the efficiency of data processing. It is important to note that the DANE data identified as indicators are stored in xlsx files with multiple sheets. These sheets have headers filled with design elements, images, footers, and merged cells instead of clear column titles. This indicates that the data is not clean for data analysis. Consequently, basic cleaning of rows and columns using Python methods was indispensable.
 A total of eleven indicators were successfully identified using the information provided by DANE. These indicators meet the parameters set by ONCE for the opening of the observatory and were subsequently loaded into the content manager Colombia Odismet:
 
  1. [Población con discapacidad en Colombia](https://odismet.co/banco-de-datos/datos-sociodemograficos "Población con discapacidad en Colombia")
@@ -100,6 +108,12 @@ A total of eleven indicators were successfully identified using the information 
  9. [Ocupados por tipo de empleo](https://odismet.co/banco-de-datos/trabajo-y-condiciones-laborales "Ocupados por tipo de empleo")
  10. [Proporción de trabajadores independientes con discapacidad](https://odismet.co/banco-de-datos/trabajo-y-condiciones-laborales "Proporción de trabajadores independientes con discapacidad")
  11. [Nivel de formación alcanzada por las personas con discapacidad](https://odismet.co/banco-de-datos/educacion-y-formacion-profesional "Nivel de formación alcanzada por las personas con discapacidad")
+
+
+# Suggestions
+
+Collaborating with DANE to improve the quality and availability of disability data in Colombia is an excellent idea. Establishing agreements for the exchange of information and joint development of standardized protocols and methodologies can be beneficial for both parties. This collaboration can help ensure the accuracy and consistency of data, thereby facilitating more effective analysis and informed decision-making on disability-related issues. Additionally, strengthening the relationship with DANE could contribute to the continuous improvement of data collection and reporting processes in the field of disability.
+
 
 # Links
 - Github: `<link>` [Database-Normalization-DANE](https://github.com/jcriostorres/Database-Normalization-DANE)
