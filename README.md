@@ -121,10 +121,9 @@ Collaborating with DANE to improve the quality and availability of disability da
 - Ana Lucía Pérez Patiño
 - Astrid Duque Ramos
 - Organización Nacional de Ciegos Españoles (ONCE)
-- [Kaggle](https://www.kaggle.com/learn/data-cleaning)
+- [Kaggle](https://www.kaggle.com/learn/data-cleaning) [![Kaggle](https://img.shields.io/badge/-Kaggle-20beff?style=flat&logo=Kaggle&logoColor=white)](https://kaggle.com/sachin93)
 
-![python](https://img.shields.io/badge/-python-grey?style=for-the-badge&logo=python&logoColor=white&labelColor=8E2DE2)
-![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=8E2DE2)
+
 
 # Links
 - Github: `<link>` [Database-Normalization-DANE](https://github.com/jcriostorres/Database-Normalization-DANE)
