@@ -67,15 +67,15 @@ To consolidate all statistical data on disability in Colombia from the National 
 The key tools for creating the normalized data model include:
 
 - Microsoft **Excel** spreadsheets
-- **Python** programming language
-- **Jupyter Notebook**, a Python IDE used for Data Science
+- **Python** <code><a href="https://www.python.org/" target="_blank"><img height="45" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></a></code> programming language
+- **Jupyter Notebook**  <code><a href="https://jupyter.org/" target="_blank"><img height="45" src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg"></a></code>  a Python IDE used for Data Science
 - Python **libraries** such as:
   
 | libraries     | Description  |
 | ------------- | ------------- |
-| Pandas        | Has applications for data analytics, wrangling, and cleaning.   |
-| Numpy         | Python’s basic numerical computation package.  |
-| Matplotlib    | Can create a variety of graphs, such as line graphs, scatter graphs, histograms, heat plots, and interactive 2D graphs.  |
+| Pandas        | Has applications for data analytics, wrangling, and cleaning. <code><a href="https://pandas.pydata.org/" target="_blank"><img height="45" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg"></a></code>  |
+| Numpy         | Python’s basic numerical computation package. <code><a href="https://numpy.org/" target="_blank"><img height="45" src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg"></a></code> |
+| Matplotlib    | Can create a variety of graphs, such as line graphs, scatter graphs, histograms, heat plots, and interactive 2D graphs. <code><a href="https://matplotlib.org/" target="_blank"><img height="45" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg"></a></code>  |
 | Plotly        | Can create a high-quality data visualizations, such as scatter plots, heatmaps, histograms, box plots, bubble charts, and polar charts.  |
 | Seaborn       | Can create visualizations of statistical data. It is built on top of Matplotlib and provides a high-level interface for creating static.  |
 
@@ -129,3 +129,5 @@ Collaborating with DANE to improve the quality and availability of disability da
 # Links
 - Github: `<link>` [Database-Normalization-DANE](https://github.com/jcriostorres/Database-Normalization-DANE)
 - Observatory: `<link>` [Odismet](https://odismet.co/banco-de-datos/datos-sociodemograficos)
+
+![ViewCount](https://views.whatilearened.today/views/github/jcriostorres/jcriostorres.svg) [![Thanks!](https://img.shields.io/badge/Thanks%20for%20visiting-!-1EAEDB.svg)](https://verma-anushka.github.io/anushkaverma/)
