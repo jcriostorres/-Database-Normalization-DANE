@@ -4,14 +4,14 @@ With the participation of the Organización Nacional de Ciegos Españoles (ONCE)
 
 **Table of Contents**
 
-1.	[Problem Statement](#id1)
-2.	[Justification]( #id2)
-3.	[Objective]( #id3)
-4.	[Objectives]( #id4)
-5.	[Theoretical Framework]( #id5)
-6.	[Results](#id6)
-7.	[Suggestion](#id7)
-8.	[Links](#id8)
+* [Problem Statement](#problem-statement)
+* [Justification](#justification)
+* [Objective](#objective)
+* [Specific Objectives](#specific-objectives)
+* [Theoretical Framework](#theoretical-framework)
+* [Results](#results)
+* [Links](#links)
+
 
 # Problem Statement
 It is essential to have access to suitable secondary sources that guarantee the quality and criteria of the indicators needed by Odismet to present the issues on its web platform. These indicators are classified into six thematic modules:
