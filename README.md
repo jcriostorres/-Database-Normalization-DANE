@@ -10,6 +10,8 @@ With the participation of the Organización Nacional de Ciegos Españoles (ONCE)
 * [Specific Objectives](#specific-objectives)
 * [Theoretical Framework](#theoretical-framework)
 * [Results](#results)
+* [Suggestions](#suggestions)
+* [Special Thanks](#special-thanks)
 * [Links](#links)
 
 
@@ -114,6 +116,15 @@ A total of eleven indicators were successfully identified using the information 
 
 Collaborating with DANE to improve the quality and availability of disability data in Colombia is an excellent idea. Establishing agreements for the exchange of information and joint development of standardized protocols and methodologies can be beneficial for both parties. This collaboration can help ensure the accuracy and consistency of data, thereby facilitating more effective analysis and informed decision-making on disability-related issues. Additionally, strengthening the relationship with DANE could contribute to the continuous improvement of data collection and reporting processes in the field of disability.
 
+# Special Thanks
+- [Universidad de Antioquia](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-sistemas)
+- Ana Lucía Pérez Patiño
+- Astrid Duque Ramos
+- Organización Nacional de Ciegos Españoles (ONCE)
+- [Kaggle](https://www.kaggle.com/learn/data-cleaning)
+
+![python](https://img.shields.io/badge/-python-grey?style=for-the-badge&logo=python&logoColor=white&labelColor=8E2DE2)
+![git](https://img.shields.io/badge/-git-grey?style=for-the-badge&logo=git&logoColor=white&labelColor=8E2DE2)
 
 # Links
 - Github: `<link>` [Database-Normalization-DANE](https://github.com/jcriostorres/Database-Normalization-DANE)
