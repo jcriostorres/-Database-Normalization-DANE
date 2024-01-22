@@ -80,8 +80,8 @@ The key tools for creating the normalized data model include:
 | Seaborn       | Can create visualizations of statistical data. It is built on top of Matplotlib and provides a high-level interface for creating static.  |
 
 - **Normalization**: **Box-Cox** Transformation method.
-- **Tableau**: It helps users create different charts, graphs, maps, dashboards, and stories for visualizing and analyzing data, to help in making business decisions.
-- **GitHub**: allowing the uploading of code repositories to store them in the Git version control system.
+- **Tableau** <code><img height="40" width="80" src="https://raw.githubusercontent.com/logo/Tableau/master/images/logo.svg"></code> : It helps users create different charts, graphs, maps, dashboards, and stories for visualizing and analyzing data, to help in making business decisions.
+- **GitHub** ![GitHub](https://img.shields.io/badge/-GitHub-181717?&logo=github) : allowing the uploading of code repositories to store them in the Git version control system.
 
 Additionally, it is important to follow a reference guide for Data Analytics projects such as CRISP-DM, which includes descriptions of the normal phases of a project, the necessary tasks in each phase, and an explanation of the relationships between tasks. It consists of 6 phases:
 
